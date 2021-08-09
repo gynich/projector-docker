@@ -19,7 +19,7 @@
 set -e # Any command which returns non-zero exit code will cause this shell script to exit immediately
 set -x # Activate debugging to show execution details: all commands will be printed before execution
 
-containerName=${1:-projector-idea-u_1.1}
+containerName=${1:-registry.jetbrains.team/p/prj/containers/projector-idea-u_custom_1.1}
 downloadUrl=${2:-https://download.jetbrains.com/idea/ideaIU-2020.3.4.tar.gz}
 
 # build container:
